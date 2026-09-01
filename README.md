@@ -220,6 +220,102 @@ Outcome:
 Provided clear operational insight and helped identify areas for improvement.
 
 
+<h2>🔧 Hardware Skills & Tools
+
+</h2>
+
+- PC Assembly & Disassembly — component installation, cable management, safe handling procedures
+
+- Motherboard Architecture — chipsets, sockets, VRMs, BIOS/UEFI configuration
+
+- CPU & Cooling Systems — thermal paste application, fan curves, airflow optimization
+
+- Memory (RAM) — installation, dual‑channel configuration, XMP profiles, diagnostics
+
+- Storage Devices — SSD/HDD installation, SATA/NVMe standards, SMART monitoring
+
+- Power Supplies (PSU) — wattage calculation, modular cabling, voltage rails
+
+- Peripheral Devices — keyboards, mice, webcams, printers, USB troubleshooting
+
+- Firmware Updates — BIOS flashing, device firmware upgrades
+
+- Hardware Diagnostics Tools:
+
+- MemTest86
+
+- CrystalDiskInfo
+
+- HWMonitor
+
+- Manufacturer tools (Dell SupportAssist, Lenovo Vantage, HP PC Hardware Diagnostics)
+
+<h2>🌐 Networking Skills & Tools
+
+</h2>
+
+- Network Cabling — Ethernet standards (Cat5e, Cat6, Cat6a), crimping, cable testing
+
+- Network Devices — routers, switches, access points, modems
+
+- IP Addressing — IPv4 basics, subnetting fundamentals, DHCP vs static addressing
+
+- DNS Concepts — name resolution, common DNS issues, flushing DNS
+
+- Wi‑Fi Troubleshooting — SSID configuration, channel interference, signal strength
+
+- Network Protocols — TCP/UDP basics, ARP, ICMP
+
+- Common Networking Tools:
+
+- ping — connectivity testing
+
+- tracert — route tracing
+
+- ipconfig — IP configuration
+
+- nslookup — DNS diagnostics
+
+- netstat — active connections
+
+- Basic Switch & Router Configuration — login via web UI, firmware updates, port settings
+
+- Network Security Basics — WPA2/WPA3, MAC filtering, firewall rules
+
+<h2>🛠️ Hardware Troubleshooting Workflow
+
+</h2>
+- Identify symptoms (no power, no display, overheating, slow performance)
+
+- Perform visual inspection (cables, seating, dust buildup)
+
+- Test components individually (RAM sticks, GPU, PSU)
+
+- Use diagnostic tools (POST codes, beep codes, onboard LEDs)
+
+- Reproduce issue and document findings
+
+- Apply fix and verify stability
+
+- Record resolution for future reference
+
+<h2>🌐 Networking Troubleshooting Workflow
+
+</h2>
+- Confirm physical connectivity (cables, link lights, Wi‑Fi status)
+
+- Check IP configuration (DHCP lease, gateway, DNS)
+
+- Test connectivity (ping gateway, DNS, external site)
+
+- Restart network stack (flush DNS, reset adapter)
+
+- Validate router/switch status
+
+- Document root cause and resolution
+
+
+
 
 
 <h2> 🤳 Connect with me:</h2>
