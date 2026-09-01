@@ -13,82 +13,80 @@
 (basically curated list of tools I've used for troubleshooting, user support, system administration, and IT operations.)
 
 Core Support & Administration
-Active Directory (user provisioning, password resets, group management)
+- Active Directory (user provisioning, password resets, group management)
 
-Azure AD / Entra ID (identity management, MFA resets)
+- Azure AD / Entra ID (identity management, MFA resets)
 
-Microsoft 365 Admin Center (mailboxes, licensing, security)
+- Microsoft 365 Admin Center (mailboxes, licensing, security)
 
-Exchange Admin Center (DLs, shared mailboxes, message trace)
+- Exchange Admin Center (DLs, shared mailboxes, message trace)
 
-Intune (device compliance, app deployment)
+- Intune (device compliance, app deployment)
 
-SCCM / MECM (software deployment, imaging)
+- SCCM / MECM (software deployment, imaging)
 
-ServiceNow, Jira Service Desk, Zendesk (ticketing & workflow)
+- ServiceNow, Jira Service Desk, Zendesk (ticketing & workflow)
 
 Troubleshooting & Diagnostics
-Event Viewer (log analysis)
+- Event Viewer (log analysis)
 
-PowerShell (automation, user management scripts)
+- PowerShell (automation, user management scripts)
 
-Command Line Tools: ping, tracert, nslookup, ipconfig, netstat
+- Command Line Tools: ping, tracert, nslookup, ipconfig, netstat
 
-Windows Reliability Monitor
+- Windows Reliability Monitor
 
-Task Manager & Resource Monitor
+- Task Manager & Resource Monitor
 
-Printer Management Tools (drivers, spooler service)
+- Printer Management Tools (drivers, spooler service)
 
 Networking Tools
-Wireshark (basic packet inspection)
+- Wireshark (basic packet inspection)
 
-PuTTY / SSH
+- PuTTY / SSH
 
-DNS & DHCP troubleshooting
+- DNS & DHCP troubleshooting
 
-VPN clients: Cisco AnyConnect, FortiClient, GlobalProtect
+- VPN clients: Cisco AnyConnect, FortiClient, GlobalProtect
 
 Security & Compliance
-Microsoft Defender for Endpoint
+- Microsoft Defender for Endpoint
 
-BitLocker management
+- BitLocker management
 
-MFA & SSPR support
+- MFA & SSPR support
 
-Security log review (failed logins, access issues)
+- Security log review (failed logins, access issues)
 
 Deployment & Imaging
-MDT (Microsoft Deployment Toolkit)
+- MDT (Microsoft Deployment Toolkit)
 
-Clonezilla
+- Clonezilla
 
-Ninite / Chocolatey
+- Ninite / Chocolatey
 
-Group Policy Management Console (GPMC)
+- Group Policy Management Console (GPMC)
 
 Documentation & Knowledge Tools
-Confluence
+- Confluence
 
-SharePoint
+- SharePoint
 
-GitHub (documentation, version control)
+- Markdown
 
-Markdown
-
-OneNote / Notion
+- OneNote / Notion
 
 Advanced / Optional Tools
-Sysinternals Suite (Process Explorer, Autoruns, TCPView)
+- Sysinternals Suite (Process Explorer, Autoruns, TCPView)
 
-PDQ Deploy & PDQ Inventory
+- PDQ Deploy & PDQ Inventory
 
-VMware Workstation / Hyper‑V
+- VMware Workstation / Hyper‑V
 
-Nmap (basic scanning)
+- Nmap (basic scanning)
 
 
-- <h2>(Helpdesk Labs completed on CompTIA Testout)</h2>
+- <h2>(Helpdesk Labs completed on CompTIA Testout(with simple scenarios that I handle))</h2>
 
 Printer Troubleshooting Demonstration
 Scenario:
@@ -96,15 +94,15 @@ A user reports that their printer is showing as offline and cannot print documen
 
 Steps Taken:
 
-Confirmed the user was connected to the correct network
+- Confirmed the user was connected to the correct network
 
-Checked printer status in the Windows printer settings
+- Checked printer status in the Windows printer settings
 
-Restarted the Print Spooler service
+- Restarted the Print Spooler service
 
-Removed and re-added the printer using its static IP address
+- Removed and re-added the printer using its static IP address
 
-Printed a test page to verify functionality
+- Printed a test page to verify functionality
 
 Outcome:
 The printer successfully returned to online status and resumed normal operation.
@@ -115,15 +113,15 @@ A user reports intermittent internet connectivity, with frequent dropouts throug
 
 Steps Taken:
 
-Verified the issue was isolated to the user’s workstation
+- Verified the issue was isolated to the user’s workstation
 
-Checked IP configuration and DHCP lease information
+- Checked IP configuration and DHCP lease information
 
-Performed ping and tracert tests to identify packet loss
+- Performed ping and tracert tests to identify packet loss
 
-Determined the Wi-Fi signal was unstable due to distance
+- Determined the Wi-Fi signal was unstable due to distance
 
-Switched the user to a wired Ethernet connection
+- Switched the user to a wired Ethernet connection
 
 Outcome:
 The user’s connection stabilized with no further interruptions.
@@ -134,15 +132,15 @@ A user is unable to log in due to an account lockout and malfunctioning MFA auth
 
 Steps Taken:
 
-Verified user identity through security questions
+- Verified user identity through security questions
 
-Checked Active Directory for lockout status
+- Checked Active Directory for lockout status
 
-Reset the user’s password and enabled “change password at next login”
+- Reset the user’s password and enabled “change password at next login”
 
-Cleared old MFA registration and re-enrolled the user’s device
+- Cleared old MFA registration and re-enrolled the user’s device
 
-Guided the user through the MFA setup process
+- Guided the user through the MFA setup process
 
 Outcome:
 The user regained secure access to their account and MFA was fully restored.
@@ -153,13 +151,13 @@ Microsoft Teams fails to launch after a recent update.
 
 Steps Taken:
 
-Checked Task Manager for stuck Teams processes
+- Checked Task Manager for stuck Teams processes
 
-Cleared the Teams cache directory
+- Cleared the Teams cache directory
 
-Reinstalled Teams using the organization’s installer
+- Reinstalled Teams using the organization’s installer
 
-Verified successful login and synchronization
+- Verified successful login and synchronization
 
 Outcome:
 Teams launched correctly and operated without further issues.
@@ -170,15 +168,15 @@ Preparing a workstation and accounts for a new employee joining the organization
 
 Steps Taken:
 
-Created a new Active Directory account and assigned required security groups
+- Created a new Active Directory account and assigned required security groups
 
-Set up email, Teams, and shared drive permissions
+- Set up email, Teams, and shared drive permissions
 
-Installed necessary applications based on the employee’s role
+- Installed necessary applications based on the employee’s role
 
-Applied workstation security policies and configurations
+- Applied workstation security policies and configurations
 
-Provided a welcome guide with login instructions and first-day resources
+- Provided a welcome guide with login instructions and first-day resources
 
 Outcome:
 The new employee was fully operational on their first day.
@@ -189,15 +187,15 @@ A user reports that their screen is flickering and disrupting their work.
 
 Steps Taken:
 
-Connected to the workstation using remote support tools
+- Connected to the workstation using remote support tools
 
-Checked display settings and graphics driver version
+- Checked display settings and graphics driver version
 
-Identified an outdated GPU driver causing instability
+- Identified an outdated GPU driver causing instability
 
-Updated the driver and rebooted the system
+- Updated the driver and rebooted the system
 
-Confirmed the issue was resolved
+- Confirmed the issue was resolved
 
 Outcome:
 The display stabilized and the user resumed normal work.
@@ -208,11 +206,11 @@ Weekly helpdesk performance summary prepared for management review.
 
 Metrics Included:
 
-Total tickets resolved: 42
+- Total tickets resolved: 42
 
-Average resolution time: 18 minutes
+- Average resolution time: 18 minutes
 
-Most common issues: password resets, printer problems, VPN connectivity
+- Most common issues: password resets, printer problems, VPN connectivity
 
 Escalations: 3
 
