@@ -312,7 +312,34 @@ Provided clear operational insight and helped identify areas for improvement.
 
 - Validate router/switch status
 
-- Document root cause and resolution
+- Document root cause and resolution (Always)
+
+<h2>🖥️ Server Hardware Support
+
+</h2>
+- Rack Installation Basics — mounting servers, rails, cable management, labeling, safe lifting procedures
+
+- Power Systems — dual PSUs, redundancy concepts, checking power draw, UPS basics
+
+- Server Components — CPU sockets, ECC RAM installation, RAID cards, network interface cards
+
+- RAID Fundamentals — RAID 0/1/5/10 concepts, drive replacement, array rebuilding awareness
+
+- Storage Systems — hot‑swap drive replacement, SATA/SAS/NVMe differences, monitoring SMART data
+
+- Cooling Systems — fan modules, airflow paths, thermal troubleshooting
+
+- Firmware & BIOS — updating server BIOS, iDRAC/iLO basics, boot order configuration
+
+- Remote Management — iDRAC, iLO, IPMI basics (view logs, reboot, check health status)
+
+- Network Interfaces — link lights, port identification, LACP awareness, VLAN tagging basics
+
+- Server OS Installation — Windows Server installation workflow, basic Linux install familiarity
+
+- Virtualization Awareness — Hyper‑V basics, ESXi host identification, VM hardware concepts
+
+- Hardware Monitoring Tools — Dell OpenManage, HP Insight, Lenovo XClarity (basic usage)
 
 
 
