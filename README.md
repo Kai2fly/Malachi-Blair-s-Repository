@@ -8,7 +8,88 @@
   - [Linux Malware Sim and containtment](https://1drv.ms/w/c/9b30b2619e2c59e9/IQBhtZo-LWtMQrED15GCsJUzASI26vmpwr9TgUtuTrgU2NM?e=Om2gsL)
   - [DBase and SQLite Cipher site investigation](https://1drv.ms/w/c/9b30b2619e2c59e9/IQDCJPEU-V9XRK5vKkpn-lalAWHg1InUV8pwuUS_BWuadQQ?e=ODlIDi)
   - [NMAP Suspicous port scan and threat mitigation lab)](https://1drv.ms/w/c/9b30b2619e2c59e9/IQBIIo-nokeiTrpf-lsEWARwARxHLGQP2-9MLcMqglg_z1E?e=B1VYNW)
+  
+  -<h2> 🖥️ Helpdesk Tools & Technologies
+(basically curated list of tools I've used for troubleshooting, user support, system administration, and IT operations.)
+
+Core Support & Administration
+Active Directory (user provisioning, password resets, group management)
+
+Azure AD / Entra ID (identity management, MFA resets)
+
+Microsoft 365 Admin Center (mailboxes, licensing, security)
+
+Exchange Admin Center (DLs, shared mailboxes, message trace)
+
+Intune (device compliance, app deployment)
+
+SCCM / MECM (software deployment, imaging)
+
+ServiceNow, Jira Service Desk, Zendesk (ticketing & workflow)
+
+Troubleshooting & Diagnostics
+Event Viewer (log analysis)
+
+PowerShell (automation, user management scripts)
+
+Command Line Tools: ping, tracert, nslookup, ipconfig, netstat
+
+Windows Reliability Monitor
+
+Task Manager & Resource Monitor
+
+Printer Management Tools (drivers, spooler service)
+
+Networking Tools
+Wireshark (basic packet inspection)
+
+PuTTY / SSH
+
+DNS & DHCP troubleshooting
+
+VPN clients: Cisco AnyConnect, FortiClient, GlobalProtect
+
+Security & Compliance
+Microsoft Defender for Endpoint
+
+BitLocker management
+
+MFA & SSPR support
+
+Security log review (failed logins, access issues)
+
+Deployment & Imaging
+MDT (Microsoft Deployment Toolkit)
+
+Clonezilla
+
+Ninite / Chocolatey
+
+Group Policy Management Console (GPMC)
+
+Documentation & Knowledge Tools
+Confluence
+
+SharePoint
+
+GitHub (documentation, version control)
+
+Markdown
+
+OneNote / Notion
+
+Advanced / Optional Tools
+Sysinternals Suite (Process Explorer, Autoruns, TCPView)
+
+PDQ Deploy & PDQ Inventory
+
+VMware Workstation / Hyper‑V
+
+Nmap (basic scanning)
+
+
 - <h2>(Helpdesk Labs completed on CompTIA Testout)</h2>
+
 Printer Troubleshooting Demonstration
 Scenario:
 A user reports that their printer is showing as offline and cannot print documents.
