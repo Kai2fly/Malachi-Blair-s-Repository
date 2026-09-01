@@ -3,7 +3,7 @@
 <h2>👨‍💻 Software Development Projects:</h2>
 
 - <b>Data Structures and Algorithms Practice (AlgoExpert)</b>
-- <b>Full Stack Web App (React, NodeJS, Azure, and Machine Learning Components)</b>
+- <b>Full Stack Web App (React, NodeJS, Azure, Machine Learning Components, Kali Linux, Ubuntu, and Windows10 featured in labs below)</b>
   - [Windows EventLog: Failed Logins Source IP Demo](https://1drv.ms/p/c/9b30b2619e2c59e9/IQA69vEnbSP6TqqYW1CUTbHdAcJqKVDA4ARQVNUnTds6cPg?e=EgOgMq)
   - [Linux Malware Sim and containtment](https://1drv.ms/w/c/9b30b2619e2c59e9/IQBhtZo-LWtMQrED15GCsJUzASI26vmpwr9TgUtuTrgU2NM?e=Om2gsL)
   - [DBase and SQLite Cipher site investigation](https://1drv.ms/w/c/9b30b2619e2c59e9/IQDCJPEU-V9XRK5vKkpn-lalAWHg1InUV8pwuUS_BWuadQQ?e=ODlIDi)
